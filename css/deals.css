@@ -41,3 +41,16 @@ body {
     cursor: pointer;
     font-size: 100%;
 }
+
+.home-button {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    padding: 2% 1%;
+    background-color: #D5F8FF;
+    color: #2F80B8;
+    border: none;
+    border-radius: 0.1%;
+    cursor: pointer;
+    font-size: 100%;
+}
