@@ -39,3 +39,56 @@ position: relative;
     cursor: pointer;
 
 }
+
+.deals-button {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    padding: 2% 1%;
+    background-color: #D5F8FF;
+    color: #2F80B8;
+    border: none;
+    border-radius: 0.1%;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+
+
+.mainFormText {
+
+    color: #2F80B8;
+}
+
+.mainFormColour {
+
+    background-color: aliceblue;
+
+}
+
+.form-group input[type="email"],
+
+.form-group textarea {
+
+    background-color: lightblue;
+
+}
+
+
+/* Set placeholder text position to inside the input fields */
+
+.placeholder {
+
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    padding: 10px;
+
+}
+
+#contactForm {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
