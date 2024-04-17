@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #D5F8FF;
+}
+
+.imagecontainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 50%;
+margin: 0 auto;
+
+justify-content: center;
+flex-wrap: wrap;
+position: relative;
+}
+
+.imagecontainer img {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+} 
+
+.mainFormText {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding: 2% 1%;
+    border: none;
+    border-radius: 0.1%;
+    cursor: pointer;
+
+}

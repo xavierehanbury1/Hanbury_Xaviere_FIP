@@ -5,3 +5,39 @@
 .hidden {
     display: none;
 }
+
+body {
+    background-color: #D5F8FF;
+}
+
+.imagecontainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 50%;
+margin: 0 auto;
+
+justify-content: center;
+flex-wrap: wrap;
+position: relative;
+}
+
+.imagecontainer img {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+} 
+
+.contact-button {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    padding: 2% 1%;
+    background-color: #D5F8FF;
+    color: #2F80B8;
+    border: none;
+    border-radius: 0.1%;
+    cursor: pointer;
+    font-size: 100%;
+}
